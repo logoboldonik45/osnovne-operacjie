@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osnovne operacije</title>
+</head>
+<body>
+    <script>
+
+        var prvi = prompt("Unesite prvi broj");
+        var operacija = prompt("Unesite operaciju");
+        var drugi = prompt("Unesite drugi broj");
+
+        if (operacija == "+" ){
+            var oper = parseInt(prvi) + parseInt(drugi);
+            alert( "Zbir je :" + oper)
+        }
+        else if (operacija == "-" ){
+            var oper = parseInt(prvi) - parseInt(drugi);
+            alert( "Razlika je :" + oper)
+        }
+        else if (operacija == '/' ){
+            var oper = parseInt(prvi) / parseInt(drugi);
+            alert( "Dijeljenje je :" + oper)
+        }
+        else if (operacija == '*' ){
+            var oper = parseInt(prvi) * parseInt(drugi);
+            alert( "Mnozenje je :" + oper)
+        }
+
+    </script>
+</body>
+</html>
